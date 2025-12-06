@@ -1,0 +1,29 @@
+﻿@page "/currencyexchange"
+@using Currency
+<h3>CurrencyExchange</h3>
+
+<EditForm Model="@currency">
+    <fieldset>
+        <div>
+            <InputSelect id="quote" @bind-Value="currency.Quote" class="form-control">
+                <option value="@CurrencyTypes.CAD">Canadian Dollars</option>
+                <option value="@CurrencyTypes.CHF">Swiss Franc</option>
+                <option value="@CurrencyTypes.USD">US Dollars</option>
+                <option value="@CurrencyTypes.GBP">Pound Sterling</option>
+                <option value="@CurrencyTypes.AUD">Australian Dollars</option>
+                <option value="@CurrencyTypes.JPY">Japanese Yen</option>
+            </InputSelect>
+        </div>
+        <div class="form-group col-md-4">
+            <label for="amount" class=" control-label">Amount: </label>
+            <InputNumber id="amount" @bind-Value="currency.Amount" class="form-control" />
+        </div>
+        <div class="form-group">
+            <br /> Quote: €@currency.QuoteAmount
+        </div>
+    </fieldset>
+</EditForm>
+
+@code {
+    private Conversion currency = new Conversion() { Amount = 0, Quote = CurrencyTypes.GBP };
+}
