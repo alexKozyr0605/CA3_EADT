@@ -1,4 +1,6 @@
-﻿namespace Currency
+﻿using CA3_EADT;
+
+namespace Currency
 {
     public enum CurrencyTypes
     {
@@ -21,15 +23,17 @@
     }
     public class Conversion
     {
-        private static List<Exchange> cur = new List<Exchange>()
+        public List<Exchange> cur = new List<Exchange>();
+        public async Task LoadRateAsync(FixerResponse fixer)
         {
-            new Exchange(CurrencyTypes.CAD, 1.6205),
-            new Exchange(CurrencyTypes.CHF, 0.932),
-            new Exchange(CurrencyTypes.USD, 1.1597),
-            new Exchange(CurrencyTypes.GBP, 0.876),
-            new Exchange(CurrencyTypes.AUD, 1.7704),
-            new Exchange(CurrencyTypes.JPY, 181.10),
-        };
+            cur = fixer
+                .Rates.Where(r => Enum.TryParse<CurrencyTypes>(r.Key, out var currency))
+                .Select(r => new Exchange(
+                        Enum.Parse<CurrencyTypes>(r.Key),
+                        (double)r.Value
+                ))
+                .ToList();
+        }
         public double Amount { get; set; }
         public CurrencyTypes Quote { get; set; }
         public double QuoteAmount
@@ -37,9 +41,9 @@
             get
             {
                 var cncy = cur.FirstOrDefault(c => (c.Quote == Quote));
+                if (cncy == null) return 0;
                 return Amount * cncy.Rate;
             }
         }
     }
-
 }
