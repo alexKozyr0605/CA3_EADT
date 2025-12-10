@@ -46,14 +46,8 @@ stages:
       runOnce:
         deploy:
           steps:
-          - task: PublishBuildArtifacts@1
-            inputs:
-              pathToPublish: 'drop'
-              artifactName: 'drop'
-          - task: DownloadBuildArtifacts@0
-            inputs:
-              buildType: 'current'
-              downloadType: 'single'
-              artifactName: 'drop'
-              downloadPath: '$(System.ArtifactsDirectory)'
-            displayName: 'Deploy Spring Boot app'
+            - bash: |
+                echo "Deploying Spring Boot app..."
+                ./mvnw package
+                java -jar target/*.jar
+              displayName: 'Deploy Spring Boot app'
