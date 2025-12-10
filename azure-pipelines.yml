@@ -49,5 +49,4 @@ stages:
             - bash: |
                 echo "Deploying Spring Boot app..."
                 ./mvnw package
-                java -jar target/*.jar
               displayName: 'Deploy Spring Boot app'
