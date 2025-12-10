@@ -1,23 +1,43 @@
-﻿//Currency.cs
-using CA3_EADT;
-using Shared;
-
-namespace CA3_EADT
+﻿namespace CA3_EADT
 {
     public enum CurrencyTypes
     {
+        AUD,
+        BGN,
+        BRL,
         CAD,
         CHF,
-        USD,
+        CNY,
+        CZK,
+        DKK,
         GBP,
-        AUD,
+        HKD,
+        HUF,
+        IDR,
+        ILS,
+        INR,
+        ISK,
         JPY,
+        KRW,
+        MXN,
+        MYR,
+        NOK,
+        NZD,
+        PHP,
+        PLN,
+        RON,
+        SEK,
+        SGD,
+        THB,
+        TRY,
+        USD,
+        ZAR,
     }
     public class Exchange
     {
         public CurrencyTypes Quote { get; set; }
-        public double Rate { get; set; }
-        public Exchange(CurrencyTypes quote, double rate)
+        public decimal Rate { get; set; }
+        public Exchange(CurrencyTypes quote, decimal rate)
         {
             this.Quote = quote;
             this.Rate = rate;
@@ -32,23 +52,20 @@ namespace CA3_EADT
                 .Rates.Where(r => Enum.TryParse<CurrencyTypes>(r.Key, true, out var currency))
                 .Select(r => new Exchange(
                         Enum.Parse<CurrencyTypes>(r.Key),
-                        (double)r.Value
+                        (decimal)r.Value
                 ))
                 .ToList();
-            foreach (var c in cur)
-            {
-                Console.WriteLine($"Loaded currency: {c.Quote}, Rate: {c.Rate}");
-            }
         }
-        public double Amount { get; set; }
+        public decimal Amount { get; set; }
         public CurrencyTypes Quote { get; set; }
-        public double QuoteAmount
+        public decimal QuoteAmount
         {
             get
             {
                 var cncy = cur.FirstOrDefault(c => (c.Quote == Quote));
                 if (cncy == null) return 0;
-                return Amount * cncy.Rate;
+                decimal result =  Amount * cncy.Rate;
+                return Math.Round(result, 2);
             }
         }
     }

@@ -1,5 +1,4 @@
-﻿@* CurrencyExchange *@
-@page "/currencyexchange"
+﻿@page "/currencyexchange"
 @using Currency
 <h3>CurrencyExchange</h3>
 
@@ -7,12 +6,36 @@
     <fieldset>
         <div>
             <InputSelect id="quote" @bind-Value="currency.Quote" class="form-control">
-                <option value="@CurrencyTypes.CAD">Canadian Dollars</option>
-                <option value="@CurrencyTypes.CHF">Swiss Franc</option>
-                <option value="@CurrencyTypes.USD">US Dollars</option>
-                <option value="@CurrencyTypes.GBP">Pound Sterling</option>
-                <option value="@CurrencyTypes.AUD">Australian Dollars</option>
-                <option value="@CurrencyTypes.JPY">Japanese Yen</option>
+                <option value="@CurrencyTypes.AUD">Australian Dollars $</option>
+                <option value="@CurrencyTypes.BRL">Brazilian Reals R$</option>
+                <option value="@CurrencyTypes.GBP">British Pound Sterlings £</option>
+                <option value="@CurrencyTypes.BGN">Bulgarian Levs лв</option>
+                <option value="@CurrencyTypes.CAD">Canadian Dollars $</option>
+                <option value="@CurrencyTypes.CNY">Chinese Yuan Renminbis ¥</option>
+                <option value="@CurrencyTypes.CZK">Czech Korunas Kč</option>
+                <option value="@CurrencyTypes.DKK">Danish Krones kr</option>
+                <option value="@CurrencyTypes.HKD">Hong Kong Dollars $</option>
+                <option value="@CurrencyTypes.HUF">Hungarian Forints ft</option>
+                <option value="@CurrencyTypes.ISK">Icelandic Krónas kr</option>
+                <option value="@CurrencyTypes.INR">Indian Rupees ₹</option>
+                <option value="@CurrencyTypes.IDR">Indonesian Rupiahs Rp</option>
+                <option value="@CurrencyTypes.ILS">Israeli New Shekels ₪</option>
+                <option value="@CurrencyTypes.JPY">Japanese Yens ¥</option>
+                <option value="@CurrencyTypes.MYR">Malaysian Ringgits RM</option>
+                <option value="@CurrencyTypes.MXN">Mexican Pesos $</option>
+                <option value="@CurrencyTypes.NZD">New Zealand Dollars $</option>
+                <option value="@CurrencyTypes.NOK">Norwegian Krones kr</option>
+                <option value="@CurrencyTypes.PHP">Philippine Pesos ₱</option>
+                <option value="@CurrencyTypes.PLN">Polish Złotys zł</option>
+                <option value="@CurrencyTypes.RON">Romanian Leus lei</option>
+                <option value="@CurrencyTypes.SGD">Singapore Dollars $</option>
+                <option value="@CurrencyTypes.ZAR">South African Rands R</option>
+                <option value="@CurrencyTypes.KRW">South Korean Wons</option>
+                <option value="@CurrencyTypes.SEK">Swedish Kronas kr</option>
+                <option value="@CurrencyTypes.CHF">Swiss Francs CHF</option>
+                <option value="@CurrencyTypes.THB">Thai Bahts ฿</option>
+                <option value="@CurrencyTypes.TRY">Turkish Liras ₺</option>
+                <option value="@CurrencyTypes.USD">US Dollars $</option>
             </InputSelect>
         </div>
         <div class="form-group col-md-4">

@@ -1,4 +1,4 @@
-﻿namespace Shared
+﻿namespace CA3_EADT
 {
     public class FrankResponse
     {
