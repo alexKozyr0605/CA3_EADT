@@ -36,9 +36,9 @@ stages:
       inputs:
         platform: '$(buildPlatform)'
         configuration: '$(buildConfiguration)'
-- stage: SonarQube Analysis
+- stage: SonarQubeAnalysis
   jobs:
-  - job: SonarQube Preparation
+  - job: SonarQubePreparation
     steps:
     - task: SQPrep@1
       inputs:
