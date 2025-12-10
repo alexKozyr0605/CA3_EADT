@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexk\\OneDrive - Technological University Dublin\\CA3_EADT\\CA3_EADT\\CA3_EADT.csproj": {}
+    "C:\\Users\\alexk\\OneDrive - Technological University Dublin\\y4\\sem1\\EADT\\CA3_EADT\\CA3_EADT\\CA3_EADT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexk\\OneDrive - Technological University Dublin\\CA3_EADT\\CA3_EADT\\CA3_EADT.csproj": {
+    "C:\\Users\\alexk\\OneDrive - Technological University Dublin\\y4\\sem1\\EADT\\CA3_EADT\\CA3_EADT\\CA3_EADT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexk\\OneDrive - Technological University Dublin\\CA3_EADT\\CA3_EADT\\CA3_EADT.csproj",
+        "projectUniqueName": "C:\\Users\\alexk\\OneDrive - Technological University Dublin\\y4\\sem1\\EADT\\CA3_EADT\\CA3_EADT\\CA3_EADT.csproj",
         "projectName": "CA3_EADT",
-        "projectPath": "C:\\Users\\alexk\\OneDrive - Technological University Dublin\\CA3_EADT\\CA3_EADT\\CA3_EADT.csproj",
+        "projectPath": "C:\\Users\\alexk\\OneDrive - Technological University Dublin\\y4\\sem1\\EADT\\CA3_EADT\\CA3_EADT\\CA3_EADT.csproj",
         "packagesPath": "C:\\Users\\alexk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexk\\OneDrive - Technological University Dublin\\CA3_EADT\\CA3_EADT\\obj\\",
+        "outputPath": "C:\\Users\\alexk\\OneDrive - Technological University Dublin\\y4\\sem1\\EADT\\CA3_EADT\\CA3_EADT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

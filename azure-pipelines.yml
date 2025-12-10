@@ -46,25 +46,10 @@ stages:
       runOnce:
         deploy:
           steps:
-          - task: JavaToolInstaller@0
-            inputs:
-              versionSpec: '$(javaVersion)'
-              jdkArchitectureOption: 'x64'
-              jdkSourceOption: 'PreInstalled'
-          
           - task: DownloadBuildArtifacts@0
             inputs:
               buildType: 'current'
               downloadType: 'single'
               artifactName: 'drop'
               downloadPath: '$(System.ArtifactsDirectory)'
-          
-          - script: |
-              JAR_FILE=$(find $(System.ArtifactsDirectory) -name *SNAPSHOT.jar)
-              if [ -z "$JAR_FILE" ]; then
-                echo "No JAR file found"
-                exit 1
-              fi
-              echo "Found JAR file: $JAR_FILE"
-              java -jar $JAR_FILE &
             displayName: 'Deploy Spring Boot app'

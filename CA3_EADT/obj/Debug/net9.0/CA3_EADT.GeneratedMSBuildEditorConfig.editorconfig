@@ -13,37 +13,37 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = CA3_EADT
 build_property.RootNamespace = CA3_EADT
-build_property.ProjectDir = C:\Users\alexk\OneDrive - Technological University Dublin\CA3_EADT\CA3_EADT\
+build_property.ProjectDir = C:\Users\alexk\OneDrive - Technological University Dublin\y4\sem1\EADT\CA3_EADT\CA3_EADT\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\alexk\OneDrive - Technological University Dublin\CA3_EADT\CA3_EADT
+build_property.MSBuildProjectDirectory = C:\Users\alexk\OneDrive - Technological University Dublin\y4\sem1\EADT\CA3_EADT\CA3_EADT
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/alexk/OneDrive - Technological University Dublin/CA3_EADT/CA3_EADT/App.razor]
+[C:/Users/alexk/OneDrive - Technological University Dublin/y4/sem1/EADT/CA3_EADT/CA3_EADT/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexk/OneDrive - Technological University Dublin/CA3_EADT/CA3_EADT/Pages/CurrencyExchange.razor]
+[C:/Users/alexk/OneDrive - Technological University Dublin/y4/sem1/EADT/CA3_EADT/CA3_EADT/Pages/CurrencyExchange.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VycmVuY3lFeGNoYW5nZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexk/OneDrive - Technological University Dublin/CA3_EADT/CA3_EADT/Pages/Home.razor]
+[C:/Users/alexk/OneDrive - Technological University Dublin/y4/sem1/EADT/CA3_EADT/CA3_EADT/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexk/OneDrive - Technological University Dublin/CA3_EADT/CA3_EADT/_Imports.razor]
+[C:/Users/alexk/OneDrive - Technological University Dublin/y4/sem1/EADT/CA3_EADT/CA3_EADT/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexk/OneDrive - Technological University Dublin/CA3_EADT/CA3_EADT/Layout/MainLayout.razor]
+[C:/Users/alexk/OneDrive - Technological University Dublin/y4/sem1/EADT/CA3_EADT/CA3_EADT/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-5wum0jaccq
 
-[C:/Users/alexk/OneDrive - Technological University Dublin/CA3_EADT/CA3_EADT/Layout/NavMenu.razor]
+[C:/Users/alexk/OneDrive - Technological University Dublin/y4/sem1/EADT/CA3_EADT/CA3_EADT/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-n60nkpa75c
