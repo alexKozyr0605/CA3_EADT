@@ -36,6 +36,28 @@ stages:
       inputs:
         platform: '$(buildPlatform)'
         configuration: '$(buildConfiguration)'
+- stage: SonarQube Analysis
+  jobs:
+  - job: SonarQube Preparation
+    steps:
+    - task: SQPrep@1
+      inputs:
+        SonarQube: 'SonarQubeConnection'
+        scannerMode: 'MSBuild'
+        projectKey: 'CA3_EADT'
+        projectName: 'CA3_EADT'
+    - task: DotNetCoreCLI@2
+      inputs:
+        command: 'build'
+        projects: '**/*.csproj'
+        arguments: '--configuration Release'
+
+    - task: SonarQubeAnalyze@5
+
+    - task: SonarQubePublish@5
+      inputs:
+        pollingTimeoutSec: '300'
+
 - stage: Deploy
   jobs:
   - deployment: DeployJob

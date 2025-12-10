@@ -9,7 +9,6 @@
 
 .navbar-brand {
     font-size: 1.1rem;
-/*    background-color: darkgreen;*/
 }
 
 .bi {
@@ -35,7 +34,6 @@
 }
 
 .nav-item {
-    background-color: mediumseagreen;
     font-size: 0.9rem;
     padding-bottom: 0.5rem;
 }
