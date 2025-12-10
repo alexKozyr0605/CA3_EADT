@@ -1,6 +1,8 @@
 wwwroot\css\app.css
 wwwroot\favicon.png
 wwwroot\icon-192.png
+wwwroot\images\little-kitten-sits-near-dollars-260nw-1126455227.jpg
+wwwroot\images\little-kitten-sits-near-dollars-260nw-1126455227.webp
 wwwroot\index.html
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map

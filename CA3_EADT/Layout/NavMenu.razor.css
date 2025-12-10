@@ -8,7 +8,8 @@
 }
 
 .navbar-brand {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .bi {
@@ -34,6 +35,7 @@
 }
 
 .nav-item {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 0.9rem;
     padding-bottom: 0.5rem;
 }

@@ -1,5 +1,6 @@
 /* /Layout/MainLayout.razor.rz.scp.css */
 .page[b-5wum0jaccq] {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -87,7 +88,8 @@ main[b-5wum0jaccq] {
 }
 
 .navbar-brand[b-n60nkpa75c] {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .bi[b-n60nkpa75c] {
@@ -113,6 +115,7 @@ main[b-5wum0jaccq] {
 }
 
 .nav-item[b-n60nkpa75c] {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 0.9rem;
     padding-bottom: 0.5rem;
 }
