@@ -40,7 +40,7 @@ stages:
   jobs:
   - job: SonarQubePreparation
     steps:
-    - task: SQPrep@1
+    - task: SonarQubePrepare@5
       inputs:
         SonarQube: 'SonarQubeConnection'
         scannerMode: 'MSBuild'
