@@ -88,6 +88,7 @@ main[b-5wum0jaccq] {
 
 .navbar-brand[b-n60nkpa75c] {
     font-size: 1.1rem;
+/*    background-color: darkgreen;*/
 }
 
 .bi[b-n60nkpa75c] {
@@ -113,6 +114,7 @@ main[b-5wum0jaccq] {
 }
 
 .nav-item[b-n60nkpa75c] {
+    background-color: mediumseagreen;
     font-size: 0.9rem;
     padding-bottom: 0.5rem;
 }
