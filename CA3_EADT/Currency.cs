@@ -1,6 +1,8 @@
-﻿using CA3_EADT;
+﻿//Currency.cs
+using CA3_EADT;
+using Shared;
 
-namespace Currency
+namespace CA3_EADT
 {
     public enum CurrencyTypes
     {
@@ -21,18 +23,22 @@ namespace Currency
             this.Rate = rate;
         }
     }
-    public class Conversion
+    public class ConvertCurrency
     {
         public List<Exchange> cur = new List<Exchange>();
         public async Task LoadRateAsync(FixerResponse fixer)
         {
             cur = fixer
-                .Rates.Where(r => Enum.TryParse<CurrencyTypes>(r.Key, out var currency))
+                .Rates.Where(r => Enum.TryParse<CurrencyTypes>(r.Key, true, out var currency))
                 .Select(r => new Exchange(
                         Enum.Parse<CurrencyTypes>(r.Key),
                         (double)r.Value
                 ))
                 .ToList();
+            foreach (var c in cur)
+            {
+                Console.WriteLine($"Loaded currency: {c.Quote}, Rate: {c.Rate}");
+            }
         }
         public double Amount { get; set; }
         public CurrencyTypes Quote { get; set; }

@@ -1,45 +1,43 @@
-﻿using static System.Net.WebRequestMethods;
+﻿//Fixer.cs
 using CA3_EADT;
-using System.Net.Http.Json;
+using Shared;
 using Microsoft.AspNetCore.Components;
+using Microsoft.VisualBasic;
+using System.Net.Http.Json;
+using static System.Net.WebRequestMethods;
+//using System.Net.Http;
+//using System.Net.Http.Json;
 
 namespace Currency
 {
-    public class Fixer : ComponentBase
+    public class Fixer
     {
         private readonly HttpClient _httpClient;
-        private readonly IConfiguration _config;
+        //private readonly IConfiguration _config;
         //private readonly string _apiKey = "5cf7a2ea2eb7e25f4eceb9c158876116";
-        public Fixer(HttpClient httpClient, IConfiguration config)
+        public Fixer(HttpClient httpClient)
         {
             _httpClient = httpClient;
-            _config = config;
+            //_config = config;
             //_httpClient.BaseAddress = new Uri("https://data.fixer.io/api/");
         }
-        public async Task<FixerResponse?> CurrentRates(string Base = "EUR")
+        public async Task<FixerResponse?> CurrentRates()
         {
-            string apiKey = _config["FixerApiKey"];
-            string url = $"https://data.fixer.io/api/latest?access_key={apiKey}";
-            return await _httpClient.GetFromJsonAsync<FixerResponse>(url);
+            return await _httpClient.GetFromJsonAsync<FixerResponse>("api/rates");
         }
-        protected override async Task OnInitializedAsync()
-        {
-            var response = await CurrentRates("EUR");
-            if (response != null && response.Success)
-            {
-                var conversion = new Conversion
-                {
-                    Amount = 1,
-                    Quote = CurrencyTypes.GBP
-                };
-                await conversion.LoadRateAsync(response);
-            }
-        }
-    }
-    public class FixerResponse
-    {
-        public bool Success { get; set; }
-        public string Base { get; set; }
-        public Dictionary<string, decimal> Rates { get; set; }
+        //protected override async Task OnInitializedAsync()
+        //{
+        //    //HttpClient.GetFromJsonAsync<FixerResponse>("https://localhost:7254")
+        //    var response = await CurrentRates("EUR");
+        //    if (response != null && response.Success)
+        //    {
+        //        var conversion = new ConvertCurrency
+        //        {
+        //            Amount = 1,
+        //            Quote = CurrencyTypes.GBP
+        //        };
+        //        await conversion.LoadRateAsync(response);
+        //    }
+        //}
     }
 }

@@ -1,0 +1,6 @@
+@WebAppForCA3_HostAddress = http://localhost:5213
+
+GET {{WebAppForCA3_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

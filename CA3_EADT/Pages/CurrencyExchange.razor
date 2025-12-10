@@ -1,4 +1,5 @@
-﻿@page "/currencyexchange"
+﻿@* CurrencyExchange *@
+@page "/currencyexchange"
 @using Currency
 <h3>CurrencyExchange</h3>
 
@@ -15,35 +16,28 @@
             </InputSelect>
         </div>
         <div class="form-group col-md-4">
-            <label for="amount" class=" control-label">Amount: </label>
+            <label for="amount" class=" control-label">Amount: €</label>
             <InputNumber id="amount" @bind-Value="currency.Amount" class="form-control" />
         </div>
-        @if (currency.cur.Count == 0)
-        {
-            <p>Waiting for input...</p>
-        }
-        else
-        {
-            <div class="form-group">
-                <br /> Quote: €@currency.QuoteAmount
-            </div>
-        }
+        <div class="form-group">
+            <br /> Quote: @currency.QuoteAmount
+        </div>
     </fieldset>
 </EditForm>
 
 @code {
-    private Conversion currency = new Conversion() { Amount = 0, Quote = CurrencyTypes.GBP };
+    private ConvertCurrency currency = new ConvertCurrency() { Amount = 1, Quote = CurrencyTypes.GBP };
     private Fixer fixer;
 
     [Inject]
     private HttpClient Http { get; set; }
 
-    [Inject]
-    private IConfiguration Configuration { get; set; }
+    // [Inject]
+    // private IConfiguration Configuration { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
-        fixer = new Fixer(Http, Configuration);
+        fixer = new Fixer(Http);
         var response = await fixer.CurrentRates();
         if (response != null && response.Success)
         {
