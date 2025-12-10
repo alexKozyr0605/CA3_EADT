@@ -45,24 +45,21 @@
 
 //Program.cs (WebAppForCA3 folder)
 
-using Shared;
-using System.Net.Http;
-using System.Net.Http.Json;
-var builder = WebApplication.CreateBuilder(args);
+//using Shared;
+//using System.Net.Http;
+//using System.Net.Http.Json;
+//var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddHttpClient();
-builder.Services.AddEndpointsApiExplorer();
-var app = builder.Build();
-app.UseBlazorFrameworkFiles();
-app.UseStaticFiles();
-app.MapGet("/api/rates", async (IHttpClientFactory factory, IConfiguration config) =>
-{
-    var client = factory.CreateClient();
-    var apiKey = config["FixerApiKey"];
-    client.DefaultRequestHeaders.Add("apikey", apiKey);
-    var result = await client.GetFromJsonAsync<FixerResponse>("https://api.apilayer.com/fixer/latest?base=EUR");
-    return Results.Ok(result);
-});
-app.MapFallbackToFile("index.html");
+//builder.Services.AddHttpClient();
+//builder.Services.AddEndpointsApiExplorer();
+//var app = builder.Build();
+//app.UseStaticFiles();
+//app.MapGet("api/rates", async (IHttpClientFactory factory) =>
+//{
+//    var client = factory.CreateClient();
+//    var result = await client.GetFromJsonAsync<FrankResponse>("https://api.frankfurter.app/latest?from=EUR");
+//    return result;
+//});
+//app.MapFallbackToFile("index.html");
 
-app.Run();
+//app.Run();

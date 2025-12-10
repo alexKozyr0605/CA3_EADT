@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "BkHkLxkMfMI=",
+  "dgSpecHash": "wBeWFEuXONU=",
   "success": true,
   "projectFilePath": "C:\\Users\\alexk\\OneDrive - Technological University Dublin\\y4\\sem1\\EADT\\CA3_EADT\\WebAppForCA3\\WebAppForCA3.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\alexk\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.devserver\\10.0.1\\microsoft.aspnetcore.components.webassembly.devserver.10.0.1.nupkg.sha512",
+    "C:\\Users\\alexk\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.server\\10.0.1\\microsoft.aspnetcore.components.webassembly.server.10.0.1.nupkg.sha512",
     "C:\\Users\\alexk\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.22\\microsoft.aspnetcore.openapi.8.0.22.nupkg.sha512",
     "C:\\Users\\alexk\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\alexk\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",

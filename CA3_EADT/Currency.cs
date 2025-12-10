@@ -26,9 +26,9 @@ namespace CA3_EADT
     public class ConvertCurrency
     {
         public List<Exchange> cur = new List<Exchange>();
-        public async Task LoadRateAsync(FixerResponse fixer)
+        public async Task LoadRateAsync(FrankResponse frank)
         {
-            cur = fixer
+            cur = frank
                 .Rates.Where(r => Enum.TryParse<CurrencyTypes>(r.Key, true, out var currency))
                 .Select(r => new Exchange(
                         Enum.Parse<CurrencyTypes>(r.Key),

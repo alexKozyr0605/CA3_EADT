@@ -27,21 +27,16 @@
 
 @code {
     private ConvertCurrency currency = new ConvertCurrency() { Amount = 1, Quote = CurrencyTypes.GBP };
-    private Fixer fixer;
-
     [Inject]
     private HttpClient Http { get; set; }
-
-    // [Inject]
-    // private IConfiguration Configuration { get; set; }
-
     protected override async Task OnInitializedAsync()
     {
-        fixer = new Fixer(Http);
-        var response = await fixer.CurrentRates();
-        if (response != null && response.Success)
+        var frank = await Http.GetFromJsonAsync<FrankResponse>(
+            "https://api.frankfurter.app/latest?from=EUR"
+        );
+        if (frank != null)
         {
-            await currency.LoadRateAsync(response);
+            await currency.LoadRateAsync(frank);
         }
     }
 }
