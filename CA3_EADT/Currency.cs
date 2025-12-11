@@ -48,6 +48,7 @@
         public List<Exchange> cur = new List<Exchange>();
         public async Task LoadRateAsync(FrankResponse frank)
         {
+            //how would i make a list of my frankfurter rates
             cur = frank
                 .Rates.Where(r => Enum.TryParse<CurrencyTypes>(r.Key, true, out var currency))
                 .Select(r => new Exchange(

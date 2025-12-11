@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\alexk\\OneDrive - Technological University Dublin\\y4\\sem1\\EADT\\CA3_EADT\\CA3_EADT\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A8E84740-1ED6-401F-B7A7-B2057951468E}|CA3_EADT.csproj|c:\\users\\alexk\\onedrive - technological university dublin\\y4\\sem1\\eadt\\ca3_eadt\\ca3_eadt\\pages\\currencyexchange.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8E84740-1ED6-401F-B7A7-B2057951468E}|CA3_EADT.csproj|solutionrelative:pages\\currencyexchange.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8E84740-1ED6-401F-B7A7-B2057951468E}|CA3_EADT.csproj|c:\\users\\alexk\\onedrive - technological university dublin\\y4\\sem1\\eadt\\ca3_eadt\\ca3_eadt\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8E84740-1ED6-401F-B7A7-B2057951468E}|CA3_EADT.csproj|solutionrelative:layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8E84740-1ED6-401F-B7A7-B2057951468E}|CA3_EADT.csproj|c:\\users\\alexk\\onedrive - technological university dublin\\y4\\sem1\\eadt\\ca3_eadt\\ca3_eadt\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8E84740-1ED6-401F-B7A7-B2057951468E}|CA3_EADT.csproj|solutionrelative:currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8E84740-1ED6-401F-B7A7-B2057951468E}|CA3_EADT.csproj|c:\\users\\alexk\\onedrive - technological university dublin\\y4\\sem1\\eadt\\ca3_eadt\\ca3_eadt\\frank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8E84740-1ED6-401F-B7A7-B2057951468E}|CA3_EADT.csproj|solutionrelative:frank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8E84740-1ED6-401F-B7A7-B2057951468E}|CA3_EADT.csproj|c:\\users\\alexk\\onedrive - technological university dublin\\y4\\sem1\\eadt\\ca3_eadt\\ca3_eadt\\frankresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8E84740-1ED6-401F-B7A7-B2057951468E}|CA3_EADT.csproj|solutionrelative:frankresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A8E84740-1ED6-401F-B7A7-B2057951468E}|CA3_EADT.csproj|c:\\users\\alexk\\onedrive - technological university dublin\\y4\\sem1\\eadt\\ca3_eadt\\ca3_eadt\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A8E84740-1ED6-401F-B7A7-B2057951468E}|CA3_EADT.csproj|solutionrelative:layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -11,16 +31,8 @@
       "RelativeMoniker": "D:0:0:{A8E84740-1ED6-401F-B7A7-B2057951468E}|CA3_EADT.csproj|solutionrelative:layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8E84740-1ED6-401F-B7A7-B2057951468E}|CA3_EADT.csproj|c:\\users\\alexk\\onedrive - technological university dublin\\y4\\sem1\\eadt\\ca3_eadt\\ca3_eadt\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A8E84740-1ED6-401F-B7A7-B2057951468E}|CA3_EADT.csproj|solutionrelative:layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A8E84740-1ED6-401F-B7A7-B2057951468E}|CA3_EADT.csproj|c:\\users\\alexk\\onedrive - technological university dublin\\y4\\sem1\\eadt\\ca3_eadt\\ca3_eadt\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A8E84740-1ED6-401F-B7A7-B2057951468E}|CA3_EADT.csproj|solutionrelative:pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8E84740-1ED6-401F-B7A7-B2057951468E}|CA3_EADT.csproj|c:\\users\\alexk\\onedrive - technological university dublin\\y4\\sem1\\eadt\\ca3_eadt\\ca3_eadt\\pages\\currencyexchange.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A8E84740-1ED6-401F-B7A7-B2057951468E}|CA3_EADT.csproj|solutionrelative:pages\\currencyexchange.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A8E84740-1ED6-401F-B7A7-B2057951468E}|CA3_EADT.csproj|c:\\users\\alexk\\onedrive - technological university dublin\\y4\\sem1\\eadt\\ca3_eadt\\ca3_eadt\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -34,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,6 +55,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Currency.cs",
+              "DocumentMoniker": "C:\\Users\\alexk\\OneDrive - Technological University Dublin\\y4\\sem1\\EADT\\CA3_EADT\\CA3_EADT\\Currency.cs",
+              "RelativeDocumentMoniker": "Currency.cs",
+              "ToolTip": "C:\\Users\\alexk\\OneDrive - Technological University Dublin\\y4\\sem1\\EADT\\CA3_EADT\\CA3_EADT\\Currency.cs",
+              "RelativeToolTip": "Currency.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwDIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T11:01:05.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrankResponse.cs",
+              "DocumentMoniker": "C:\\Users\\alexk\\OneDrive - Technological University Dublin\\y4\\sem1\\EADT\\CA3_EADT\\CA3_EADT\\FrankResponse.cs",
+              "RelativeDocumentMoniker": "FrankResponse.cs",
+              "ToolTip": "C:\\Users\\alexk\\OneDrive - Technological University Dublin\\y4\\sem1\\EADT\\CA3_EADT\\CA3_EADT\\FrankResponse.cs",
+              "RelativeToolTip": "FrankResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T11:00:59.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Frank.cs",
+              "DocumentMoniker": "C:\\Users\\alexk\\OneDrive - Technological University Dublin\\y4\\sem1\\EADT\\CA3_EADT\\CA3_EADT\\Frank.cs",
+              "RelativeDocumentMoniker": "Frank.cs",
+              "ToolTip": "C:\\Users\\alexk\\OneDrive - Technological University Dublin\\y4\\sem1\\EADT\\CA3_EADT\\CA3_EADT\\Frank.cs",
+              "RelativeToolTip": "Frank.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T11:00:57.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\alexk\\OneDrive - Technological University Dublin\\y4\\sem1\\EADT\\CA3_EADT\\CA3_EADT\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "Layout\\MainLayout.razor",
@@ -55,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "MainLayout.razor.css",
               "DocumentMoniker": "C:\\Users\\alexk\\OneDrive - Technological University Dublin\\y4\\sem1\\EADT\\CA3_EADT\\CA3_EADT\\Layout\\MainLayout.razor.css",
               "RelativeDocumentMoniker": "Layout\\MainLayout.razor.css",
@@ -67,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\alexk\\OneDrive - Technological University Dublin\\y4\\sem1\\EADT\\CA3_EADT\\CA3_EADT\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "Layout\\NavMenu.razor",
@@ -75,12 +126,11 @@
               "RelativeToolTip": "Layout\\NavMenu.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-10T21:08:49.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T21:08:49.985Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\alexk\\OneDrive - Technological University Dublin\\y4\\sem1\\EADT\\CA3_EADT\\CA3_EADT\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Pages\\Home.razor",
@@ -88,24 +138,24 @@
               "RelativeToolTip": "Pages\\Home.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-10T21:08:12.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T21:08:12.23Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "CurrencyExchange.razor",
               "DocumentMoniker": "C:\\Users\\alexk\\OneDrive - Technological University Dublin\\y4\\sem1\\EADT\\CA3_EADT\\CA3_EADT\\Pages\\CurrencyExchange.razor",
               "RelativeDocumentMoniker": "Pages\\CurrencyExchange.razor",
               "ToolTip": "C:\\Users\\alexk\\OneDrive - Technological University Dublin\\y4\\sem1\\EADT\\CA3_EADT\\CA3_EADT\\Pages\\CurrencyExchange.razor",
               "RelativeToolTip": "Pages\\CurrencyExchange.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-10T21:08:10.879Z"
+              "WhenOpened": "2025-12-10T21:08:10.879Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "NavMenu.razor.css",
               "DocumentMoniker": "C:\\Users\\alexk\\OneDrive - Technological University Dublin\\y4\\sem1\\EADT\\CA3_EADT\\CA3_EADT\\Layout\\NavMenu.razor.css",
               "RelativeDocumentMoniker": "Layout\\NavMenu.razor.css",

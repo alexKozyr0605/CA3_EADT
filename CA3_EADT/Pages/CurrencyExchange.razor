@@ -50,6 +50,7 @@
 
 @code {
     private ConvertCurrency currency = new ConvertCurrency() { Amount = 1, Quote = CurrencyTypes.GBP };
+    //how do i ensure data and rates are being returned
     [Inject]
     private HttpClient Http { get; set; }
     protected override async Task OnInitializedAsync()
